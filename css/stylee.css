@@ -21,3 +21,55 @@
     text-decoration: none;
     color: #fff;
 }
+
+/* navbar */
+#navbar{
+    background-color: rgb(64, 208, 160);
+}
+#logo{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#logo span{
+    color: black;
+}
+#logo #span1{
+    font-size: 30px;
+    margin-right: 5px;
+}
+.navbar-nav{
+    margin-left: 20ps;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-item .nav-link{
+    color: #fff;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px rgb(10, 10, 10);
+}
+.nav-item .nav-link:hover{
+    color: aquamarine;
+}
+.dropdown-menu li a{
+    color: #fff;
+    transition: 0.5s;
+}
+.dropdown-menu li a:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+#search input{
+    border-radius: 50px;
+    border: none;
+}
+#search button{
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid aquamarine;
+}
+
+/* Navbar  */
