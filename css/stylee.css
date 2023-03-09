@@ -170,3 +170,45 @@ sub color: #f0cc2b; */
     }
 }
 /* home  */
+
+/* Product cards  */
+#product-cards{
+    margin-top: 100px;
+}
+#product-cards h1{
+    text-transform: uppercase;
+    color: #f0cc2b;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-bottom: 2px solid #f0cc2b;
+}
+#product-cards .card h3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#product-cards .card p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+}
+.star i{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #f0cc2b;
+}
+#product-cards .card h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+#product-cards .card h2 span{
+    float: right;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+@media only screen and (max-width: 992px) {
+
+    #product-cards .card h3 {
+            font-size: 18px;
+        }
+}
+/* Product cards  */
