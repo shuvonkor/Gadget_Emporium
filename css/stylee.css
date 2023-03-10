@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -565,6 +566,9 @@ h5 {
     color: #fff;
     font-size: 16px;
     background-color: #8D27AE;
+}
+#footer .footer-top{
+    margin-bottom: 30px;
 }
 #footer .footer-top h3{
     color: #f0cc2b;

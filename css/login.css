@@ -1,0 +1,79 @@
+#login {
+    margin: 30px 0;
+    text-align: center;
+    align-items: center;
+}
+
+#login #login-left-content {
+    background-color: #8D27AE;
+    position: relative;
+    min-height: 100px;
+}
+
+#login #login-left-content h3 {
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#login-right-content{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#login-right-content h3{
+    margin-top: 40px;
+    color: #8D27AE;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-size: 30px;
+
+}
+#login-right-content p{
+    font-size: 18px;
+    margin: 0 25px;
+
+}
+.login-input input{
+    align-items: center;
+    margin: auto;
+    display: block;
+    width: 300px;
+    margin-top: 35px;
+    border: none;
+    border-bottom: 2px solid #f0cc2b;
+}
+#btnlogin{
+    padding: 40px 0;
+}
+#btnlogin a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #8D27AE;
+    padding: 10px 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+}
+#btnlogin a:hover{
+    background-color: #8513ab;
+}
+#login-right-content .forgot-pass{
+    margin-bottom: 50px;
+    
+}
+#login-right-content .forgot-pass a{
+    text-decoration: none;
+    color: #f5ca08;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .login-input input {
+        width: 200px;
+    }
+}
