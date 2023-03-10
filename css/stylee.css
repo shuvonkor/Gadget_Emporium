@@ -212,3 +212,168 @@ sub color: #f0cc2b; */
         }
 }
 /* Product cards  */
+
+/* Other cards  */
+#other-card{
+    margin-top: 30px;
+}
+#other-card .card{
+    background-color: #f0cc2b;
+}
+#other-card .card h3{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 8px;
+    letter-spacing: 3px;
+}
+#other-card .card h5{
+    margin-top: 15px;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-left: 11px;
+    padding-bottom: 6px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #000;
+    width: 230px;
+}
+#other-card .card p{
+    margin-top: 12px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 3px;
+    margin-left: 11px;
+}
+#shop-now{
+    margin-top: 11px;
+    margin-left: 11px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    
+}
+@media only screen and (max-width: 992px) {
+    #other-card .card h3 {
+            margin-top: 10px;
+            color: rgb(0, 0, 0);
+            margin-left: 8px;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+    #other-card .card h5 {
+            margin-top: 5px;
+            font-weight: 200;
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            margin-left: 5px;
+            padding-bottom: 6px;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #000;
+            width: 130px;
+        }
+    #other-card .card p {
+            margin-top: 5px;
+            font-weight: 200;
+            font-size: 12px;
+            color: #000;
+            letter-spacing: 2px;
+            margin-left: 5px;
+        }
+    #shop-now {
+            margin-top: 5px;
+            margin-left: 5px;
+            letter-spacing: 2px;
+            color: #fff;
+            background-color: #000;
+            font-weight: bold;
+            padding: 5px 10px;
+            font-size: 12px;
+            border: none;
+    
+        }
+}
+/* Other cards  */
+
+/* Banner  */
+#banner {
+    align-items: center;
+    justify-content: center;
+    background-color: #a9a9a92b;
+    z-index: 0;
+    margin-top: 30px;
+}
+
+#banner .content {
+    margin: auto;
+}
+
+#banner .content h1 {
+    color: #8D27AE;
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 60px;
+    text-shadow: -1px 1px 1x rgb(0, 0, 0);
+}
+
+#banner .content h1 span {
+    display: block;
+    color: #8D27AE;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#banner .content #span2 {
+    color: #f0cc2b !important;
+    display: inline !important;
+}
+
+#banner .content p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+
+#banner #banner.content p,
+.btn {
+    margin-left: 24px;
+}
+
+#banner .btn button {
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: #8D27AE;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#banner .btn button:hover {
+    background-color: #f0cc2b;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+#banner .img img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+
+    #banner .content h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    #banner .content h1 {
+        font-size: 45px;
+    }
+}
